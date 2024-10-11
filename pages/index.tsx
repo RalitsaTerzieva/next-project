@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import Link from 'next/link';
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
       
       <header className="bg-yellow-600 text-white py-5">
         <h1 className="text-4xl font-bold text-center">Hello, I'm Rali</h1>
-        <p className="text-lg text-center">I'm a Software Developer.</p>
+        <p className="text-lg text-center">Hi, I'm a software developer specializing in React and Python. I love building efficient web applications and continuously learning new technologies.</p>
       </header>
       
       <main className="flex-grow flex flex-col items-center justify-center py-10">
@@ -62,6 +63,10 @@ const Home = () => {
         <section className="mb-10 text-center">
           <h2 className="text-2xl font-semibold">About Me</h2>
           <p className="text-gray-700">I am a passionate software developer specializing in React, React Native, Python, and Django. I enjoy creating dynamic applications using Material UI, Bootstrap, Tailwind, Express, and Next.js. Every day, I dedicate time to reading programming and self-improvement books, which fuels my growth. During weekends, I love to build my own projects, allowing me to apply what I learn and explore new technologies.</p>
+        </section>
+
+        <section style={{ marginTop: '30px', marginBottom: '30px' }}>
+          <Link href="/skills" className="text-blue-500 underline">View My Skills</Link>
         </section>
 
         <section className="mb-10 text-center">
