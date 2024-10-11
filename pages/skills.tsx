@@ -18,6 +18,20 @@ const Skills = () => {
         <SkillCard skill="Next.js" level="Intermediate" />
       </div>
 
+      <section className="mt-10">
+        <h3 className="text-2xl font-semibold text-center mt-10 mb-3">Tools & Methodologies</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <SkillCard skill="Agile & Scrum" level="Familiar" />
+          <SkillCard skill="Figma" level="Familiar" />
+          <SkillCard skill="Notion" level="Familiar" />
+          <SkillCard skill="Trello" level="Familiar" />
+          <SkillCard skill="Jira" level="Familiar" />
+          <SkillCard skill="Grafana" level="Familiar" />
+          <SkillCard skill="CircleCI" level="Familiar" />
+          <SkillCard skill="Sentry" level="Familiar" />
+        </div>
+      </section>
+
       <h3 className="text-2xl font-semibold text-center mt-10 mb-3">Soft Skills</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <SkillCard skill="Team Player" level="Strong" />
