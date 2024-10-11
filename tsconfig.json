@@ -1,33 +1,34 @@
 {
-    "compilerOptions": {
-      "baseUrl": "src",
-      "esModuleInterop": true,
-      "module": "esnext",
-      "noImplicitAny": true,
-      "outDir": "dist",
-      "resolveJsonModule": true,
-      "sourceMap": false,
-      "target": "es6",
-      "lib": [
-        "dom",
-        "dom.iterable",
-        "esnext"
-      ],
-      "allowJs": true,
-      "skipLibCheck": true,
-      "strict": true,
-      "forceConsistentCasingInFileNames": true,
-      "noEmit": true,
-      "moduleResolution": "node",
-      "isolatedModules": true,
-      "jsx": "preserve",
-      "incremental": true
-    },
-    "include": [
-      "src/**/*.ts",
-      "src/**/*.tsx"
+  "compilerOptions": {
+    "baseUrl": "src",
+    "esModuleInterop": true,
+    "module": "esnext",
+    "noImplicitAny": true,
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "sourceMap": false,
+    "target": "es6",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
     ],
-    "exclude": [
-      "node_modules"
-    ]
-  }
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "tailwind.config.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
