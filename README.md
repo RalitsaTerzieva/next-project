@@ -6,9 +6,6 @@ Welcome to my portfolio! This project showcases my skills and projects as a Soft
 
 - **Home Page**: Introduction and overview of my skills.
 - **Skills Page**: Detailed technical skills and tools I am proficient in.
-- **Projects Page**: Showcase of my notable projects.
-- **Testimonials Page**: Recommendations from colleagues and clients.
-- **Contact Page**: Information for potential collaborations.
 
 ## Getting Started
 
