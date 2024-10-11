@@ -61,12 +61,21 @@ const Home = () => {
 
         <section className="mb-10 text-center">
           <h2 className="text-2xl font-semibold">About Me</h2>
-          <p className="text-gray-700">Learn more about my journey and skills.</p>
+          <p className="text-gray-700">I am a passionate software developer specializing in React, React Native, Python, and Django. I enjoy creating dynamic applications using Material UI, Bootstrap, Tailwind, Express, and Next.js. Every day, I dedicate time to reading programming and self-improvement books, which fuels my growth. During weekends, I love to build my own projects, allowing me to apply what I learn and explore new technologies.</p>
         </section>
 
         <section className="mb-10 text-center">
-          <h2 className="text-2xl font-semibold">Contact</h2>
-          <p className="text-gray-700">Get in touch with me for collaboration or opportunities.</p>
+            <h2 className="text-2xl font-semibold">Contact</h2>
+            <p className="text-gray-700">Get in touch with me for collaboration or opportunities.</p>
+
+            <div className="mt-5">
+                <p className="text-lg">LinkedIn: <a href="https://www.linkedin.com/in/ralitsa-terzieva/" className="text-blue-500 underline">linkedin.com/in/yourprofile</a></p>
+                <p className="text-lg">GitHub: <a href="https://github.com/RalitsaTerzieva" className="text-blue-500 underline">github.com/RalitsaTerzieva</a></p>
+            </div>
+
+            <div className="mt-5">
+                <p className="text-gray-600">Feel free to reach out!</p>
+            </div>
         </section>
       </main>
       
