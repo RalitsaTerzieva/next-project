@@ -69,6 +69,10 @@ const Home = () => {
           <Link href="/skills" className="text-blue-500 underline">View My Skills</Link>
         </section>
 
+        <section style={{ marginTop: '30px', marginBottom: '30px' }}>
+          <Link href="/certifications" className="text-blue-500 underline">View My Certifications</Link>
+        </section>
+
         <section className="mb-10 text-center">
             <h2 className="text-2xl font-semibold">Contact</h2>
             <p className="text-gray-700">Get in touch with me for collaboration or opportunities.</p>
