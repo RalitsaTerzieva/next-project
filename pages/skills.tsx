@@ -1,4 +1,5 @@
 import React from 'react';
+import SkillCard from './../src/components/SkillCard';
 
 const Skills = () => {
   return (
@@ -43,13 +44,5 @@ const Skills = () => {
   );
 };
 
-const SkillCard = ({ skill, level }) => {
-  return (
-    <div className="bg-white shadow-md rounded p-4">
-      <h3 className="text-xl font-semibold">{skill}</h3>
-      <p className="text-gray-700">Proficiency: {level}</p>
-    </div>
-  );
-};
 
 export default Skills;
