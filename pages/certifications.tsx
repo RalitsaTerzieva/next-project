@@ -22,6 +22,7 @@ const Certifications = () => {
         <SkillCard skill="Certificate Python Advanced" level="Expert" />
         <SkillCard skill="Certificate Python Fundamentals January 2020" level="Expert" />
         <SkillCard skill="Certificate of Programming Basics with Python" level="Expert" />
+        <SkillCard skill="The Complete Oracle SQL Certification" level="Expert" />
         </div>
     </div>
  )
